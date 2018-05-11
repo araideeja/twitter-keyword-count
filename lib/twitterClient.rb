@@ -6,9 +6,9 @@ class TwitterClient
 	@@MAX_ATTEMPT=1
 	@@RESULT_TYPE='recent' #Options are "mixed", "recent", and "popular". The current default is "mixed."
 	@@config = {
-	  consumer_key:    "d4j3v7gOwdzLWc7VDMcHJa2lQ",
-	  consumer_secret: "tTIuXNGjXPZv0JuMmwuHhq0AFvaxdQHUJZKlivQ0h9Sd9gLrJk",
-	  bearer_token: "AAAAAAAAAAAAAAAAAAAAAPgg5QAAAAAAEQtbmHnotjbLMxStV0MBqHfIC%2BM%3DScTslff0ZxAsKtIWmq3NPxuo5Zwsw6zOW7sGTfSCldSPBIxy0h"
+	  consumer_key:    "",
+	  consumer_secret: "",
+	  bearer_token: ""
 	}
 	
 	def initialize
